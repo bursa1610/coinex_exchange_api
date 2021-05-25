@@ -1,0 +1,19 @@
+# Request
+POST https://api.coinex.com/v1/balance/coin/withdraw?access_id=9180C3E53D6D4C56920080B0B7188E59&tonce=1513746038205
+# Response
+{
+    "code": 0,
+    "data": {
+        "actual_amount": "68.00000000",
+        "amount": "54.00000000",
+        "coin_address": "0x25d1830E4826bAfaE974F25B2158801FfBA1E709",
+        "coin_type": "USDT",
+        "coin_withdraw_id": 206,
+        "confirmations": 0,
+        "create_time": 1524228297,
+        "status": "audit",
+        "tx_fee": "14",
+        "tx_id": ""
+    },
+    "message": "Ok"
+}
